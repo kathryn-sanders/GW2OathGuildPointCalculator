@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guild Point Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="GuildPointCalculator.js"></script>
+    <link rel="stylesheet" href="GuildPointCalculator.css">
+</head>
+
+<body>
+    <h1 id="title">Guild Point Calculator</h1>
+    <div class="formContainer">
+        <div>
+            <input type="text" id="lastLogID" name="lastLogID" placeholder="Last Log- Leave empty for max available history">
+            <button onclick="RunCalculator()" type="button" value="Submit">Run Calculator</button>
+        </div>
+    </div>
+
+    <div id="results"></div>
+</body>
+</html>
